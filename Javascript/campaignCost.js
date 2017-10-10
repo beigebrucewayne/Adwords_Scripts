@@ -43,7 +43,7 @@ function appendRow(col1, col2) {
   var newdate = month + "/" + day + "/" + year
 
   var ss = SpreadsheetApp.openByUrl(SPREADSHEET_URL)
-  var sheet = ss.getSheetByName(SHEET_NAME)
+  var sheet = ss.getSheetByName(SPREADSHEET_NAME)
   var color = sheet.getRange('A:A')
   color.setBackground('#FF9999')
   
